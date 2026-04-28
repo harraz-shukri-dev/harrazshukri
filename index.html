@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harraz Shukri - Dev Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sticky-top" id="sticky-top">
+      <button
+        id="mobile-header-toggle"
+        class="btn mobile-header-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="header-nav-content"
+      >
+        Menu
+      </button>
+
+      <div id="header-nav-content" class="header-nav-content">
+        <header>
+          <div class="header-content">
+            <h1>harraz_shukri@portfolio:~$</h1>
+            <p>Software Development Student / Web Developer Freelance</p>
+          </div>
+          <button id="theme-toggle" class="btn">Toggle Theme</button>
+        </header>
+
+        <nav>
+          <ul>
+            <li><a href="#about">./about</a></li>
+            <li><a href="#education">./education</a></li>
+            <li><a href="#licenses">./licenses</a></li>
+            <li><a href="#skills">./skills</a></li>
+            <li><a href="#projects">./projects</a></li>
+            <li><a href="#contact">./contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section id="about">
+        <h2>> cat about.txt</h2>
+        <article>
+          <div class="about-container">
+            <img
+              src="assets/image.png"
+              alt="Harraz Shukri"
+              class="profile-img"
+            />
+            <div class="about-text">
+              <p>
+                I am Harraz Shukri, a fresh graduate with a Diploma in
+                Information Technology and currently pursuing a degree in
+                Software Development at
+                <a
+                  href="https://www.utem.edu.my/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Universiti Teknikal Malaysia Melaka (UTeM)</a
+                >.
+              </p>
+              <p>
+                Specializing in web development, WordPress customization, and
+                Android development, I bring a strong foundation in HTML, PHP,
+                CSS, Java, Kotlin, React, Tailwind, Python, Electron, Laravel
+                and XML to create high-quality, user-centric solutions that
+                deliver optimal performance and scalability.
+              </p>
+              <p>
+                As a lifelong learner, I am passionate about expanding my
+                knowledge and skills in software development. I thrive in
+                collaborative environments and am eager to contribute to a
+                forward-thinking IT team where I can apply my technical
+                expertise, embrace new challenges, and grow both professionally
+                and personally. Let’s connect and explore how I can add value to
+                your organization!
+              </p>
+
+              <p class="hobbies">
+                <strong>Hobbies:</strong> Coding and Music Production
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>> ls -l education/</h2>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Institution</th>
+                <th>Degree</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Universiti Teknikal Malaysia Melaka</td>
+                <td>Bachelor's degree, Software Development</td>
+                <td>Oct 2024 – Feb 2028</td>
+              </tr>
+              <tr>
+                <td>Universiti Teknikal Malaysia Melaka</td>
+                <td>Diploma, Information Technology</td>
+                <td>Oct 2021 – Feb 2024</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="licenses">
+        <h2>> cat licenses_and_certifications.json</h2>
+        <article class="license-grid" aria-label="Company, licenses and certifications list">
+          <div class="credential-card company-card">
+          <p class="credential-type">My Company</p>
+          <h3>RAZDEVPLUS SOLUTIONS GLOBAL</h3>
+          <p>
+            <strong>Role:</strong> Managing Director | Founder
+            <br /><strong>SSM No:</strong> SA0617727-H
+            <br /><strong>Timeline:</strong> Established in 2020, officially
+            registered in 2024
+            <br /><strong>Website:</strong>
+            <a
+              href="https://razdevplus.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >razdevplus.com</a
+            >
+          </p>
+          </div>
+
+          <div class="credential-card">
+            <p class="credential-type">Certificate</p>
+            <h3>Google Cloud Computing Foundations</h3>
+            <p class="credential-meta">Google | Issued Feb 2024</p>
+            <a
+              href="https://cloudskillsboost.google/public_profiles/0f29bca3-55eb-4cb7-9da1-eab2a0a11603"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Google Cloud Public Profile</a
+            >
+          </div>
+
+          <div class="credential-card">
+            <p class="credential-type">Mentor Program</p>
+            <h3>
+              10 Days Google Cloud Computing Foundations Student Mentor
+              Challenge Program
+            </h3>
+            <p class="credential-meta">Google | Issued Feb 2024</p>
+            <a
+              href="https://cloudskillsboost.google/public_profiles/0f29bca3-55eb-4cb7-9da1-eab2a0a11603"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Google Cloud Public Profile</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <section id="skills">
+        <h2>> cat skills.json</h2>
+        <article class="skills-card">
+          <ul class="skills-list">
+            <li>
+              Full-Stack Web Development: Next.js, React, Tailwind CSS, Node.js,
+              HTML, CSS, JavaScript, Laravel, PHP (Vanilla)
+            </li>
+            <li>
+              CMS & E-Commerce: WordPress, WooCommerce, theme customization,
+              payment and logistics integrations (Billplz, EasyParcel)
+            </li>
+            <li>
+              Mobile Development: Kotlin/Java Android applications with API and
+              real-time features
+            </li>
+            <li>
+              AI & Computer Vision: Google MediaPipe, real-time feed analysis,
+              and AI-assisted application features
+            </li>
+            <li>
+              IoT & System Integration: Arduino C++, TCP/UDP communication,
+              DJI Developer API, JakimAPI, and NodeMediaServer workflows
+            </li>
+            <li>
+              Cloud & Delivery: Vercel deployment, PWA development, Firebase,
+              GitHub-based workflow and CI/CD practices
+            </li>
+            <li>
+              Databases & Backend Services: Supabase and MySQL
+            </li>
+            <li>
+              Developer Tooling: Model Context Protocol (MCP) integration and
+              workflow usage
+            </li>
+            <li>
+              Infrastructure & Operations: Web hosting setup, deployment, DNS
+              management, and domain configuration
+            </li>
+            <li>
+              Creative Audio: Music production, mixing engineering, and
+              mastering engineering
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>> ls projects/</h2>
+        <article
+          class="projects-carousel"
+          aria-label="Project and works carousel"
+        >
+          <div class="carousel-window">
+            <div class="carousel-track" id="projects-track">
+              <article class="project-slide">
+                <img
+                  src="assets/wms.webp"
+                  alt="Workshop Management System placeholder"
+                  class="project-image"
+                />
+                <h3>Workshop Management System</h3>
+                <p class="project-meta">
+                  Client: Merc Energy Auto Garage (KB) Sdn Bhd (<a
+                    href="https://megkbhq.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >megkbhq.com</a
+                  >)
+                </p>
+                <p>
+                  Comprehensive workshop management solution for automotive
+                  services with inventory tracking, appointment scheduling, and
+                  customer management.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/onlineappointment.webp"
+                  alt="Online Booking Appointment Form placeholder"
+                  class="project-image"
+                />
+                <h3>Online Booking/Appointment Form</h3>
+                <p class="project-meta">
+                  Client: Merc Energy Auto Garage (KB) Sdn Bhd (<a
+                    href="https://megkbhq.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >megkbhq.com</a
+                  >)
+                </p>
+                <p>
+                  Flexible appointment booking system with calendar integration,
+                  automated reminders, and real-time availability checking.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/filesharingapp.webp"
+                  alt="MrDrop File Sharing placeholder"
+                  class="project-image"
+                />
+                <h3>File Sharing App</h3>
+                <p class="project-meta">
+                  Self Project: MrDrop File Sharing (<a
+                    href="https://mrdrop.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >mrdrop.vercel.app</a
+                  >)
+                </p>
+                <p>
+                  Secure file sharing platform with end-to-end encryption,
+                  access controls, and collaborative features for teams.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-maintenance"
+                    >UNDER MAINTENANCE</span
+                  >
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/rsvpform.webp"
+                  alt="Wedding RSVP placeholder"
+                  class="project-image"
+                />
+                <h3>Wedding RSVP</h3>
+                <p class="project-meta">Client: Lex Niaga Global</p>
+                <p>
+                  Beautiful wedding RSVP system with guest management, meal
+                  preferences, and event details for the perfect celebration.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/sportequipmentrental.webp"
+                  alt="Sports Equipment Booking System placeholder"
+                  class="project-image"
+                />
+                <h3>Sports Equipment Booking System</h3>
+                <p class="project-meta">Client: Internal Project</p>
+                <p>
+                  Dynamic sports equipment rental platform with availability
+                  tracking, booking management, and payment processing.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Vanilla PHP</span>
+                    <span class="pill">HTML</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">JS</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/ecommerce.webp"
+                  alt="Living Potion ecommerce placeholder"
+                  class="project-image"
+                />
+                <h3>E-Commerce Web</h3>
+                <p class="project-meta">
+                  Client: Living Potion (<a
+                    href="https://livingpotion.my"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >livingpotion.com</a
+                  >)
+                </p>
+                <p>
+                  Full-featured e-commerce platform with product catalog,
+                  shopping cart, secure checkout, and order tracking
+                  capabilities.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">WordPress</span>
+                    <span class="pill">WooCommerce</span>
+                    <span class="pill">Billplz Gateway</span>
+                    <span class="pill">EasyParcel Gateway</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/signlanguage.webp"
+                  alt="SignSpeak AI placeholder"
+                  class="project-image"
+                />
+                <h3>Sign Language Learning App with AI Camera</h3>
+                <p class="project-meta">Workshop 2 FTMK: SignSpeak AI</p>
+                <p>
+                  Innovative AI-powered app using computer vision to teach sign
+                  language with real-time gesture recognition and feedback.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Kotlin/Java</span>
+                    <span class="pill">Arduino C++</span>
+                    <span class="pill">Firebase</span>
+                    <span class="pill">Google MediaPipe</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/lms.webp"
+                  alt="ConverTrack CRM placeholder"
+                  class="project-image"
+                />
+                <h3>Customer Lead Management System</h3>
+                <p class="project-meta">Diploma Project: ConverTrack</p>
+                <p>
+                  Powerful CRM solution for managing leads, tracking sales
+                  pipeline, and automating customer engagement workflows.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Vanilla PHP</span>
+                    <span class="pill">HTML</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">JS</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/businessportfolio.webp"
+                  alt="Lex Niaga Global business portfolio placeholder"
+                  class="project-image"
+                />
+                <h3>Business Portfolio</h3>
+                <p class="project-meta">
+                  Client: Lex Niaga Global (<a
+                    href="https://lexofficial.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >lexofficial.com</a
+                  >)
+                </p>
+                <p>
+                  Professional business portfolio website showcasing services,
+                  projects, and company achievements with modern design.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">WordPress</span>
+                    <span class="pill">RyanCV Theme</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/personalportfolio.webp"
+                  alt="Personal portfolio placeholder"
+                  class="project-image"
+                />
+                <h3>Personal Portfolio</h3>
+                <p class="project-meta">Self Project</p>
+                <p>
+                  Elegant personal portfolio website highlighting skills,
+                  experience, and creative work with interactive elements.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Vanilla PHP</span>
+                    <span class="pill">HTML</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">JS</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/studiobooking.webp"
+                  alt="Photo Studio Booking Management System placeholder"
+                  class="project-image"
+                />
+                <h3>Photo Studio Booking/Management System</h3>
+                <p class="project-meta">
+                  Client: Pondok Putih (<a
+                    href="https://pondokputih.my"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >pondokputih.my</a
+                  >)
+                </p>
+                <p>
+                  Complete photo studio management solution with session
+                  booking, client galleries, package management, and invoicing.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/prayertimesapp.webp"
+                  alt="SukaSolat prayer times app placeholder"
+                  class="project-image"
+                />
+                <h3>Prayer Times Application</h3>
+                <p class="project-meta">Lab Project: SukaSolat</p>
+                <p>
+                  Accurate prayer times app with location-based calculations,
+                  Qibla direction, Islamic calendar, and notification reminders.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Kotlin/Java</span>
+                    <span class="pill">JakimAPI</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/dronepatrolsystem.webp"
+                  alt="SkyPat drone system placeholder"
+                  class="project-image"
+                />
+                <h3>Drone Patrolling System with Real-time AI Feed Scanning</h3>
+                <p class="project-meta">
+                  Degree Final Year Project: SkyPat Drone Patrolling System
+                </p>
+                <p>
+                  Advanced drone surveillance system with real-time AI-powered
+                  video analysis, object detection, and automated threat
+                  recognition for enhanced security monitoring.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-finished">FINISHED</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">NodeMediaServer</span>
+                    <span class="pill">Python</span>
+                    <span class="pill">Kotlin/Java (TCP/UDP)</span>
+                    <span class="pill">DJI Developer API</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/laundryms.webp"
+                  alt="Smart Laundry System placeholder"
+                  class="project-image"
+                />
+                <h3>Smart Laundry System</h3>
+                <p class="project-meta">Self Project</p>
+                <p>
+                  Intelligent laundry management platform with automated order
+                  processing, pickup/delivery scheduling, and real-time tracking
+                  for efficient operations.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-offline">OFFLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Vanilla PHP</span>
+                    <span class="pill">HTML</span>
+                    <span class="pill">CSS</span>
+                    <span class="pill">JS</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/printingproductionitemtracking.webp"
+                  alt="Production parcel tracking placeholder"
+                  class="project-image"
+                />
+                <h3>Production Parcel &amp; Order-Tracking System</h3>
+                <p class="project-meta">
+                  Client: Lex Niaga Global (<a
+                    href="https://lexbrandstracking.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >lexbrandstracking.vercel.app</a
+                  >)
+                </p>
+                <p>
+                  Comprehensive production-parcel and order-tracking solution
+                  for printing operations, offering real-time item status, job
+                  scheduling, and fulfillment transparency.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">Next.js</span>
+                    <span class="pill">React</span>
+                    <span class="pill">Tailwind</span>
+                    <span class="pill">PWA</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/solatnow.webp"
+                  alt="SolatNow windows widget placeholder"
+                  class="project-image"
+                />
+                <h3>Malaysia Prayer Times Windows Widget</h3>
+                <p class="project-meta">
+                  Self Project: SolatNow (<a
+                    href="https://solatnow.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >solatnow.netlify.app</a
+                  >)
+                </p>
+                <p>
+                  Stay connected to your daily prayers with SolatNow, a
+                  beautiful and lightweight Windows widget for Malaysian prayer
+                  times.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">React</span>
+                    <span class="pill">Tauri</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <img
+                  src="assets/stuckdynotes.webp"
+                  alt="StuckDyNotes windows widget placeholder"
+                  class="project-image"
+                />
+                <h3>Smart Desktop Task Windows Widget</h3>
+                <p class="project-meta">
+                  Self Project: StuckDyNotes (<a
+                    href="https://stuckdynotes.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >stuckdynotes.netlify.app</a
+                  >)
+                </p>
+                <p>
+                  StuckDyNotes is a sleek Kanban desktop widget for students and
+                  employees to manage tasks without leaving their workflow.
+                </p>
+                <div class="project-footer">
+                  <span class="status-badge status-online">ONLINE</span>
+                  <div class="stack-pills">
+                    <span class="pill">React</span>
+                    <span class="pill">Electron</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button
+              type="button"
+              class="btn carousel-btn"
+              id="projects-prev"
+              aria-label="Previous project"
+            >
+              Prev
+            </button>
+            <p class="carousel-indicator" id="projects-indicator">1 / 17</p>
+            <button
+              type="button"
+              class="btn carousel-btn"
+              id="projects-next"
+              aria-label="Next project"
+            >
+              Next
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>> ./contact_form.sh</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send_Message</button>
+        </form>
+      </section>
+
+      <section id="links">
+        <h2>> cat links.txt</h2>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/harraz-shukri-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" viewBox="0 0 1024 1024" fill="none" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="currentColor"/></svg><span>GitHub</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/harrazshukri"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009-.002-12.157 9.851-22.014 22.008-22.016 12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453" fill="#0A66C2"/></svg><span>LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:mrraz101503@gmail.com"
+              ><svg class="social-icon" viewBox="0 49.4 512 399.42" aria-hidden="true" focusable="false"><g fill="none" fill-rule="evenodd"><g fill-rule="nonzero"><path fill="#4285f4" d="M34.91 448.818h81.454V251L0 163.727V413.91c0 19.287 15.622 34.91 34.91 34.91z"/><path fill="#34a853" d="M395.636 448.818h81.455c19.287 0 34.909-15.622 34.909-34.909V163.727L395.636 251z"/><path fill="#fbbc04" d="M395.636 99.727V251L512 163.727v-46.545c0-43.142-49.25-67.782-83.782-41.891z"/></g><path fill="#ea4335" d="M116.364 251V99.727L256 204.455 395.636 99.727V251L256 355.727z"/><path fill="#c5221f" fill-rule="nonzero" d="M0 117.182v46.545L116.364 251V99.727L83.782 75.291C49.25 49.4 0 74.04 0 117.18z"/></g></svg><span>Email</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://razdevplus.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" viewBox="0 0 66.165833 65.803795" aria-hidden="true" focusable="false"><defs><linearGradient id="safari_b"><stop offset="0" stop-color="#06c2e7"/><stop offset=".25000015" stop-color="#0db8ec"/><stop offset=".5000003" stop-color="#12aef1"/><stop offset=".75000012" stop-color="#1f86f9"/><stop offset="1" stop-color="#107ddd"/></linearGradient><linearGradient id="safari_a"><stop offset="0" stop-color="#bdbdbd"/><stop offset="1" stop-color="#fff"/></linearGradient><linearGradient xlink:href="#safari_a" id="safari_d" x1="412.97501" x2="412.97501" y1="237.60777" y2="59.392235" gradientTransform="translate(206.79018 159.77261) scale(.35154)" gradientUnits="userSpaceOnUse"/><filter id="safari_f" width="1.0418189" height="1.0446756" x="-.02090938" y="-.0223378" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation=".95767362"/></filter><filter id="safari_c" width="1.096" height="1.096" x="-.048" y="-.048" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="3.5643107"/></filter><radialGradient xlink:href="#safari_b" id="safari_e" cx="413.06128" cy="136.81819" r="82.125351" fx="413.06128" fy="136.81819" gradientTransform="translate(194.54473 155.58044) scale(.38143)" gradientUnits="userSpaceOnUse"/></defs><path d="M502.08277 148.5a89.107765 89.107765 0 0 1-89.10777 89.10777A89.107765 89.107765 0 0 1 323.86724 148.5 89.107765 89.107765 0 0 1 412.975 59.392235 89.107765 89.107765 0 0 1 502.08277 148.5Z" filter="url(#safari_c)" opacity=".52999998" paint-order="markers stroke fill" transform="matrix(.33865 0 0 .3261 -106.76956 -14.47833)"/><path fill="url(#safari_d)" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width=".09301235" d="M383.29373 211.97671a31.325188 31.325188 0 0 1-31.32519 31.32519 31.325188 31.325188 0 0 1-31.32518-31.32519 31.325188 31.325188 0 0 1 31.32518-31.32519 31.325188 31.325188 0 0 1 31.32519 31.32519z" paint-order="markers stroke fill" transform="translate(-318.88562 -180.59501)"/><path fill="url(#safari_e)" d="M380.83911 211.97671a28.870571 28.870571 0 0 1-28.87057 28.87057 28.870571 28.870571 0 0 1-28.87057-28.87057 28.870571 28.870571 0 0 1 28.87057-28.87057 28.870571 28.870571 0 0 1 28.87057 28.87057z" paint-order="markers stroke fill" transform="translate(-318.88562 -180.59501)"/><path fill="#ff5150" d="m36.3834003 34.83806178-6.60095092-6.91272438 23.41607429-15.75199774z" paint-order="markers stroke fill"/><path fill="#f1f1f1" d="m36.38339038 34.83805895-6.60095092-6.91272438-16.81512624 22.66471911z" paint-order="markers stroke fill"/><path d="m12.96732 50.59006 23.41607-15.75201 16.81513-22.66472z" opacity=".243"/></svg><span>Portfolio (razdevplus.com)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/hrazshkri"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264.583 264.583" aria-hidden="true" focusable="false"><defs><radialGradient xlink:href="#instagram_icon__a" id="instagram_icon__f" cx="158.429" cy="578.088" r="52.352" fx="158.429" fy="578.088" gradientTransform="matrix(0 -4.03418 4.28018 0 -2332.227 942.236)" gradientUnits="userSpaceOnUse"/><radialGradient xlink:href="#instagram_icon__b" id="instagram_icon__g" cx="172.615" cy="600.692" r="65" fx="172.615" fy="600.692" gradientTransform="matrix(.67441 -1.16203 1.51283 .87801 -814.366 -47.835)" gradientUnits="userSpaceOnUse"/><radialGradient xlink:href="#instagram_icon__c" id="instagram_icon__h" cx="144.012" cy="51.337" r="67.081" fx="144.012" fy="51.337" gradientTransform="matrix(-2.3989 .67549 -.23008 -.81732 464.996 -26.404)" gradientUnits="userSpaceOnUse"/><radialGradient xlink:href="#instagram_icon__d" id="instagram_icon__e" cx="199.788" cy="628.438" r="52.352" fx="199.788" fy="628.438" gradientTransform="matrix(-3.10797 .87652 -.6315 -2.23914 1345.65 1374.198)" gradientUnits="userSpaceOnUse"/><linearGradient id="instagram_icon__d"><stop offset="0" stop-color="#ff005f"/><stop offset="1" stop-color="#fc01d8"/></linearGradient><linearGradient id="instagram_icon__c"><stop offset="0" stop-color="#780cff"/><stop offset="1" stop-color="#820bff" stop-opacity="0"/></linearGradient><linearGradient id="instagram_icon__b"><stop offset="0" stop-color="#fc0"/><stop offset="1" stop-color="#fc0" stop-opacity="0"/></linearGradient><linearGradient id="instagram_icon__a"><stop offset="0" stop-color="#fc0"/><stop offset=".124" stop-color="#fc0"/><stop offset=".567" stop-color="#fe4a05"/><stop offset=".694" stop-color="#ff0f3f"/><stop offset="1" stop-color="#fe0657" stop-opacity="0"/></linearGradient></defs><path fill="url(#instagram_icon__e)" d="M204.15 18.143c-55.23 0-71.383.057-74.523.317-11.334.943-18.387 2.728-26.07 6.554-5.922 2.942-10.592 6.351-15.201 11.13-8.394 8.716-13.481 19.439-15.323 32.184-.895 6.188-1.156 7.45-1.209 39.056-.02 10.536 0 24.4 0 42.999 0 55.2.062 71.341.326 74.476.916 11.032 2.645 17.973 6.308 25.565 7 14.533 20.37 25.443 36.12 29.514 5.453 1.404 11.476 2.178 19.208 2.544 3.277.142 36.669.244 70.081.244 33.413 0 66.826-.04 70.02-.203 8.954-.422 14.153-1.12 19.901-2.606 15.852-4.09 28.977-14.838 36.12-29.575 3.591-7.409 5.412-14.614 6.236-25.07.18-2.28.255-38.626.255-74.924 0-36.304-.082-72.583-.26-74.863-.835-10.625-2.656-17.77-6.364-25.32-3.042-6.182-6.42-10.799-11.324-15.519-8.752-8.361-19.455-13.45-32.21-15.29-6.18-.894-7.41-1.158-39.033-1.213z" transform="translate(-71.816 -18.143)"/><path fill="url(#instagram_icon__f)" d="M204.15 18.143c-55.23 0-71.383.057-74.523.317-11.334.943-18.387 2.728-26.07 6.554-5.922 2.942-10.592 6.351-15.201 11.13-8.394 8.716-13.481 19.439-15.323 32.184-.895 6.188-1.156 7.45-1.209 39.056-.02 10.536 0 24.4 0 42.999 0 55.2.062 71.341.326 74.476.916 11.032 2.645 17.973 6.308 25.565 7 14.533 20.37 25.443 36.12 29.514 5.453 1.404 11.476 2.178 19.208 2.544 3.277.142 36.669.244 70.081.244 33.413 0 66.826-.04 70.02-.203 8.954-.422 14.153-1.12 19.901-2.606 15.852-4.09 28.977-14.838 36.12-29.575 3.591-7.409 5.412-14.614 6.236-25.07.18-2.28.255-38.626.255-74.924 0-36.304-.082-72.583-.26-74.863-.835-10.625-2.656-17.77-6.364-25.32-3.042-6.182-6.42-10.799-11.324-15.519-8.752-8.361-19.455-13.45-32.21-15.29-6.18-.894-7.41-1.158-39.033-1.213z" transform="translate(-71.816 -18.143)"/><path fill="url(#instagram_icon__g)" d="M204.15 18.143c-55.23 0-71.383.057-74.523.317-11.334.943-18.387 2.728-26.07 6.554-5.922 2.942-10.592 6.351-15.201 11.13-8.394 8.716-13.481 19.439-15.323 32.184-.895 6.188-1.156 7.45-1.209 39.056-.02 10.536 0 24.4 0 42.999 0 55.2.062 71.341.326 74.476.916 11.032 2.645 17.973 6.308 25.565 7 14.533 20.37 25.443 36.12 29.514 5.453 1.404 11.476 2.178 19.208 2.544 3.277.142 36.669.244 70.081.244 33.413 0 66.826-.04 70.02-.203 8.954-.422 14.153-1.12 19.901-2.606 15.852-4.09 28.977-14.838 36.12-29.575 3.591-7.409 5.412-14.614 6.236-25.07.18-2.28.255-38.626.255-74.924 0-36.304-.082-72.583-.26-74.863-.835-10.625-2.656-17.77-6.364-25.32-3.042-6.182-6.42-10.799-11.324-15.519-8.752-8.361-19.455-13.45-32.21-15.29-6.18-.894-7.41-1.158-39.033-1.213z" transform="translate(-71.816 -18.143)"/><path fill="url(#instagram_icon__h)" d="M204.15 18.143c-55.23 0-71.383.057-74.523.317-11.334.943-18.387 2.728-26.07 6.554-5.922 2.942-10.592 6.351-15.201 11.13-8.394 8.716-13.481 19.439-15.323 32.184-.895 6.188-1.156 7.45-1.209 39.056-.02 10.536 0 24.4 0 42.999 0 55.2.062 71.341.326 74.476.916 11.032 2.645 17.973 6.308 25.565 7 14.533 20.37 25.443 36.12 29.514 5.453 1.404 11.476 2.178 19.208 2.544 3.277.142 36.669.244 70.081.244 33.413 0 66.826-.04 70.02-.203 8.954-.422 14.153-1.12 19.901-2.606 15.852-4.09 28.977-14.838 36.12-29.575 3.591-7.409 5.412-14.614 6.236-25.07.18-2.28.255-38.626.255-74.924 0-36.304-.082-72.583-.26-74.863-.835-10.625-2.656-17.77-6.364-25.32-3.042-6.182-6.42-10.799-11.324-15.519-8.752-8.361-19.455-13.45-32.21-15.29-6.18-.894-7.41-1.158-39.033-1.213z" transform="translate(-71.816 -18.143)"/><path fill="#fff" d="M132.345 33.973c-26.716 0-30.07.117-40.563.594-10.472.48-17.62 2.136-23.876 4.567-6.47 2.51-11.958 5.87-17.426 11.335-5.472 5.464-8.834 10.948-11.354 17.412-2.44 6.252-4.1 13.397-4.57 23.858-.47 10.486-.593 13.838-.593 40.535 0 26.697.119 30.037.594 40.522.482 10.465 2.14 17.609 4.57 23.859 2.515 6.465 5.876 11.95 11.346 17.414 5.466 5.468 10.955 8.834 17.42 11.345 6.26 2.431 13.41 4.088 23.881 4.567 10.493.477 13.844.594 40.559.594 26.719 0 30.061-.117 40.555-.594 10.472-.48 17.63-2.136 23.888-4.567 6.468-2.51 11.948-5.877 17.414-11.345 5.472-5.464 8.834-10.949 11.354-17.412 2.419-6.252 4.079-13.398 4.57-23.858.472-10.486.595-13.828.595-40.525s-.123-30.047-.594-40.533c-.492-10.465-2.152-17.608-4.57-23.858-2.521-6.466-5.883-11.95-11.355-17.414-5.472-5.468-10.944-8.827-17.42-11.335-6.271-2.431-13.424-4.088-23.897-4.567-10.493-.477-13.834-.594-40.558-.594zm-8.825 17.715c2.62-.004 5.542 0 8.825 0 26.266 0 29.38.094 39.752.565 9.591.438 14.797 2.04 18.264 3.385 4.591 1.782 7.864 3.912 11.305 7.352 3.443 3.44 5.575 6.717 7.362 11.305 1.346 3.46 2.951 8.663 3.388 18.247.47 10.363.573 13.475.573 39.71 0 26.233-.102 29.346-.573 39.709-.44 9.584-2.042 14.786-3.388 18.247-1.783 4.587-3.919 7.854-7.362 11.292-3.443 3.441-6.712 5.57-11.305 7.352-3.463 1.352-8.673 2.95-18.264 3.388-10.37.47-13.486.573-39.752.573-26.268 0-29.38-.102-39.751-.573-9.592-.443-14.797-2.044-18.267-3.39-4.59-1.781-7.87-3.911-11.313-7.352-3.443-3.44-5.574-6.709-7.362-11.298-1.346-3.461-2.95-8.663-3.387-18.247-.472-10.363-.566-13.476-.566-39.726s.094-29.347.566-39.71c.438-9.584 2.04-14.786 3.387-18.25 1.783-4.588 3.919-7.865 7.362-11.305 3.443-3.441 6.722-5.57 11.313-7.357 3.468-1.351 8.675-2.949 18.267-3.389 9.075-.41 12.592-.532 30.926-.553zm61.337 16.322c-6.518 0-11.805 5.277-11.805 11.792 0 6.512 5.287 11.796 11.805 11.796 6.517 0 11.804-5.284 11.804-11.796 0-6.513-5.287-11.796-11.805-11.796zm-52.512 13.782c-27.9 0-50.519 22.603-50.519 50.482 0 27.879 22.62 50.471 50.52 50.471s50.51-22.592 50.51-50.471c0-27.879-22.613-50.482-50.513-50.482zm0 17.715c18.11 0 32.792 14.67 32.792 32.767 0 18.096-14.683 32.767-32.792 32.767-18.11 0-32.791-14.671-32.791-32.767 0-18.098 14.68-32.767 32.791-32.767z"/></svg><span>Instagram</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/@HarrazHilmi"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" preserveAspectRatio="xMidYMid" viewBox="0 0 256 180" aria-hidden="true" focusable="false"><path fill="red" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z"/><path fill="#FFF" d="m102.421 128.06 66.328-38.418-66.328-38.418z"/></svg><span>YouTube</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/30d6cQLNqYA07IrudSR5Jk?nd=1&dlsi=33bf2b66389f4e89"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="social-icon" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid" aria-hidden="true" focusable="false"><path d="M128 0C57.308 0 0 57.309 0 128c0 70.696 57.309 128 128 128 70.697 0 128-57.304 128-128C256 57.314 198.697.007 127.998.007l.001-.006Zm58.699 184.614c-2.293 3.76-7.215 4.952-10.975 2.644-30.053-18.357-67.885-22.515-112.44-12.335a7.981 7.981 0 0 1-9.552-6.007 7.968 7.968 0 0 1 6-9.553c48.76-11.14 90.583-6.344 124.323 14.276 3.76 2.308 4.952 7.215 2.644 10.975Zm15.667-34.853c-2.89 4.695-9.034 6.178-13.726 3.289-34.406-21.148-86.853-27.273-127.548-14.92-5.278 1.594-10.852-1.38-12.454-6.649-1.59-5.278 1.386-10.842 6.655-12.446 46.485-14.106 104.275-7.273 143.787 17.007 4.692 2.89 6.175 9.034 3.286 13.72v-.001Zm1.345-36.293C162.457 88.964 94.394 86.71 55.007 98.666c-6.325 1.918-13.014-1.653-14.93-7.978-1.917-6.328 1.65-13.012 7.98-14.935C93.27 62.027 168.434 64.68 215.929 92.876c5.702 3.376 7.566 10.724 4.188 16.405-3.362 5.69-10.73 7.565-16.4 4.187h-.006Z" fill="#1ED760"/></svg><span>Spotify</span></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Harraz Shukri. All rights reserved.</p>
+      <p id="datetime-display"></p>
+    </footer>
+
+    <div class="floating-actions" aria-label="Quick actions">
+      <a
+        href="https://github.com/harraz-shukri-dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="floating-action floating-github"
+        aria-label="Open GitHub profile"
+      >
+        <svg
+          class="floating-icon-svg"
+          viewBox="0 0 1024 1024"
+          fill="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+            transform="scale(64)"
+            fill="currentColor"
+          />
+        </svg>
+        <span class="sr-only">GitHub</span>
+      </a>
+      <button
+        type="button"
+        id="scroll-top-btn"
+        class="floating-action floating-top"
+        aria-label="Scroll to top"
+      >
+        <span class="floating-icon">^</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
